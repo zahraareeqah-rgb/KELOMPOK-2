@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - XI RPL</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Container Utama */
+        .card-container {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        /* Header Card */
+        .card-header {
+            background-color: #2b580c;
+            color: #ffffff;
+            padding: 24px;
+            text-align: center;
+        }
+
+        .card-header h1 {
+            font-size: 1.5rem;
+            margin-bottom: 4px;
+        }
+
+        .card-header p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        /* Slicing Komponen Kontak */
+        .contact-list {
+            padding: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            background-color: #f8f9fa;
+            border-left: 4px solid #2b580c;
+        }
+
+        .contact-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .contact-detail {
+            margin-left: 12px;
+        }
+
+        .contact-detail label {
+            display: block;
+            font-size: 0.75rem;
+            color: #6c757d;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .contact-detail span {
+            font-size: 0.95rem;
+            color: #333333;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-container">
+        <!-- Section Header -->
+        <div class="card-header">
+            <h1>Hubungi Kami</h1>
+            <p>XI Rekayasa Perangkat Lunak</p>
+        </div>
+
+        <!-- Section List Kontak (Slicing Items) -->
+        <div class="contact-list">
+            <div class="contact-item">
+                <div class="contact-detail">
+                    <label>Email</label>
+                    <span>xi.rpl@example.com</span>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-detail">
+                    <label>Instagram</label>
+                    <span>@xi_rpl</span>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-detail">
+                    <label>Alamat Sekolah</label>
+                    <span>SMKN 1 Garut</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
