@@ -220,12 +220,14 @@
         }
 
         .contact-detail span {
-            font-size: 0.82rem;
+            font-size: 0.75rem; /* Mengecilkan teks email & instagram supaya rapi dan tidak terpotong */
             color: #0f172a;
             font-weight: 600;
-            word-break: break-all;
+            white-space: nowrap; /* Mencegah teks turun ke bawah */
+            overflow: hidden;
+            text-overflow: ellipsis; /* Jika tetap melebihi batas, akan otomatis diganti titik-titik (...) */
+            display: block;
         }
-
         footer {
             background-color: rgba(15, 23, 42, 0.95);
             color: #64748b;
@@ -269,10 +271,10 @@
                 <div class="card-header">
                     <div class="profile-img-box">
                         <!-- Ganti foto-areeqah.jpg dengan nama file foto kamu -->
-                        <img src="ara.jpg" alt="Areeqah" onerror="this.src='https://ui-avatars.com/api/?name=Areeqah&background=random'">
+                        <img src="aree.jpg" alt="Areeqah" onerror="this.src='https://ui-avatars.com/api/?name=Areeqah&background=random'">
                     </div>
                     <h2>Areeqah</h2>
-                    <p>Project Manager</p>
+                    <p>Project Manager,DEV</p>
                 </div>
                 <div class="contact-list">
                     <div class="contact-item">
@@ -304,7 +306,7 @@
                         <img src="arief.jpeg" alt="Arief" onerror="this.src='https://ui-avatars.com/api/?name=Arief&background=random'">
                     </div>
                     <h2>Arief</h2>
-                    <p>Dev Profil</p>
+                    <p>Dev Kontak</p>
                 </div>
                 <div class="contact-list">
                     <div class="contact-item">
@@ -333,7 +335,7 @@
                 <div class="card-header">
                     <div class="profile-img-box">
                         <!-- Ganti foto-septi.jpg dengan nama file foto kamu -->
-                        <img src="septi.jpeg" alt="Septi" onerror="this.src='https://ui-avatars.com/api/?name=Septi&background=random'">
+                        <img src="2septi.jpeg" alt="Septi" onerror="this.src='https://ui-avatars.com/api/?name=Septi&background=random'">
                     </div>
                     <h2>Septi</h2>
                     <p>Dev Anggota</p>
@@ -368,7 +370,7 @@
                         <img src="nessa.jpeg" alt="Nessa" onerror="this.src='https://ui-avatars.com/api/?name=Nessa&background=random'">
                     </div>
                     <h2>Nessa</h2>
-                    <p>Dev Kontak</p>
+                    <p>Anggota</p>
                 </div>
                 <div class="contact-list">
                     <div class="contact-item">
