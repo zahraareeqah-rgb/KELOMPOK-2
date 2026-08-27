@@ -23,7 +23,7 @@ Jawaban Pertanyaan Analisis & Konsep
    Pertanyaan 2: Apakah conflict berarti Git rusak? Jawaban: Tidak. Conflict adalah fitur pengaman dari Git untuk mencegah penimpaan kode secara tak sengaja tanpa persetujuan developer.Pertanyaan 3: Siapa yang harus menentukan versi kode yang benar? Jawaban: Developer yang mengalami conflict bersama dengan pemilik kode terkait (atau tim/Project Manager) melalui diskusi.
    Pertanyaan 4: Mengapa komunikasi antar programmer penting? Jawaban: Agar pembagian tugas jelas, mencegah pengubahan file/baris yang sama secara bersamaan, menyamakan persepsi fitur, serta mempermudah penyelesaian conflict dan code review.
 
-Panduan Jawaban Refleksi Individu & AkhirSection AC: Refleksi Individu (Halaman 19) (Contoh isi sesuai pengalaman praktikum)
+Jawaban Refleksi Individu & AkhirSection AC: Refleksi Individu (Halaman 19) 
 Perbedaan bekerja sendiri vs Git/GitHub: Bekerja sendiri membuat manajemen berkas manual dan berisiko menimpa kode. Bekerja dengan Git/GitHub terstruktur, mencatat riwayat perbaikan, serta mendukung kolaborasi tim tanpa saling mengganggu.
 Manfaat branch: Mengisolasi fitur/eksperimen baru agar tidak merusak kode utama (main).
 Mengapa Pull Request diperlukan: Untuk memastikan kode yang dibuat ditinjau (review) terlebih dahulu sebelum digabungkan ke main.
@@ -32,5 +32,5 @@ Error paling sulit: (Diisi sesuai pengalaman, misal: Git Push Rejected / Merge C
 Cara menemukan solusi: Membaca pesan error, diskusi tim, dan mencari solusinya di dokumentasi/AI.Kontribusi terbesar: (Diisi peran masing-masing, misal: Membuat halaman profil.html dan mereview Pull Request tim).
 Kebiasaan profesional yang dipertahankan: Membuat branch terpisah untuk fitur baru, menulis pesan commit yang informatif, dan melakukan code review.
 
-Section AE: Refleksi Akhir (Halaman 21) Sebelum belajar GitHub, saya berpikir bahwa... membuat aplikasi dalam tim dilakukan dengan cara saling mengirimkan file proyek secara manual (misal lewat flashdisk atau chat).
+Refleksi Akhir (Halaman 21) Sebelum belajar GitHub, saya berpikir bahwa... membuat aplikasi dalam tim dilakukan dengan cara saling mengirimkan file proyek secara manual (misal lewat flashdisk atau chat).
 Setelah melakukan kolaborasi dengan GitHub, saya memahami bahwa... pengembangan aplikasi tim dilakukan secara sistematis menggunakan alur kerja branch, Pull Request, dan Code Review.Kesalahan/error yang saya alami mengajarkan saya bahwa... error bukan tanda kegagalan, melainkan petunjuk untuk membaca pesan dengan cermat dan memahami alur kerja kode.Jika saya bekerja sebagai programmer dalam sebuah tim, saya akan... selalu berkomunikasi aktif dengan tim, mengikuti alur kerja branch, serta menjaga branch main tetap bersih dan stabil.
