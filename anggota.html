@@ -3,27 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Anggota - Kelompok 2</title>
+    <title>Daftar Anggota - Kelompok 2</title>
+    <!-- Font dari Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #f4f7fe;
+            color: #2b2d42;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #4361ee;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #6c757d;
+            font-size: 1.1rem;
+        }
+
+        /* Container Card Anggota (Grid Slicing) */
+        .team-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        /* Card Slicing Component */
+        .member-card {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-top: 5px solid #4361ee;
+        }
+
+        .member-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(67, 97, 238, 0.15);
+        }
+
+        .avatar {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: #eef2ff;
+            color: #4361ee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 0 auto 20px auto;
+        }
+
+        .role {
+            display: inline-block;
+            padding: 4px 12px;
+            background-color: #eef2ff;
+            color: #4361ee;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border-radius: 20px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .member-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+            text-transform: capitalize;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            color: #adb5bd;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
+
     <header>
-        <h1>Daftar Anggota Kelompok 2</h1>
+        <h1>Tim Kelompok 2</h1>
+        <p>Mengenal lebih dekat para pengembang di balik proyek ini</p>
     </header>
 
-    <main>
-        <section>
-            <h2>Anggota Tim</h2>
-            <ul>
-                <li><strong>Anggota 1 (PM):</strong> areeqah</li>
-                <li><strong>Anggota 2:</strong> arief</li>
-                <li><strong>Anggota 3:</strong> septi</li>
-                <li><strong>Anggota 4:</strong> nessa</li>
-            </ul>
-        </section>
+    <main class="team-container">
+        <!-- Card 1: PM -->
+        <div class="member-card">
+            <div class="avatar">A</div>
+            <span class="role">Project Manager</span>
+            <h3>Areeqah</h3>
+        </div>
+
+        <!-- Card 2: Developer Profil -->
+        <div class="member-card">
+            <div class="avatar">A</div>
+            <span class="role">Dev Profil</span>
+            <h3>Arief</h3>
+        </div>
+
+        <!-- Card 3: Developer Anggota (Kamu) -->
+        <div class="member-card" style="border-top-color: #3a0ca3;">
+            <div class="avatar" style="background: #f0e6ff; color: #3a0ca3;">S</div>
+            <span class="role" style="background: #f0e6ff; color: #3a0ca3;">Dev Anggota</span>
+            <h3>Septi</h3>
+        </div>
+
+        <!-- Card 4: Developer Kontak -->
+        <div class="member-card">
+            <div class="avatar">N</div>
+            <span class="role">Dev Kontak</span>
+            <h3>Nessa</h3>
+        </div>
     </main>
 
     <footer>
         <p>&copy; 2026 Kelompok 2. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
