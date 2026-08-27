@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil - Website XI RPL</title>
+    <style>
+        /* RESET & BASE STYLES */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* SLICE 1: HEADER & NAVIGATION */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header .logo h2 {
+            color: #ffffff;
+            font-size: 1.4rem;
+        }
+
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover,
+        nav a.active {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 4px;
+        }
+
+        /* SLICE 2: MAIN CONTAINER & LAYOUT */
+        .main-container {
+            display: flex;
+            flex: 1;
+            max-width: 1200px;
+            width: 100%;
+            margin: 20px auto;
+            padding: 0 20px;
+            gap: 20px;
+        }
+
+        /* SLICE 3: SIDEBAR */
+        aside.sidebar {
+            width: 250px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            height: fit-content;
+        }
+
+        aside h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        aside ul {
+            list-style: none;
+        }
+
+        aside ul li {
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+            line-height: 1.4;
+        }
+
+        /* SLICE 4: MAIN CONTENT AREA */
+        main.content {
+            flex: 1;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .content h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .content h2 {
+            color: #3498db;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 12px;
+        }
+
+        .card-box {
+            background: #eef7fc;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 4px;
+            transition: transform 0.2s ease;
+        }
+
+        .card-box:hover {
+            transform: translateX(4px);
+        }
+
+        .card-box h3 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        /* SLICE 5: FOOTER */
+        footer {
+            background-color: #2c3e50;
+            color: #bdc3c7;
+            text-align: center;
+            padding: 1rem;
+            margin-top: auto;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- SLICE 1: HEADER & NAVBAR -->
+    <header>
+        <div class="logo">
+            <h2>XI RPL - SMKN 1 Garut</h2>
+        </div>
+        <nav>
+            <a href="profil.html" class="active">Profil</a>
+            <a href="anggota.html">Anggota</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- CONTAINER LAYOUT -->
+    <div class="main-container">
+        <!-- SLICE 2: SIDEBAR -->
+        <aside class="sidebar">
+            <h4>Informasi Proyek</h4>
+            <ul>
+                <li><strong>Kelas:</strong> XI RPL</li>
+                <li><strong>Mata Pelajaran:</strong> DD PPLG</li>
+                <li><strong>Status:</strong> Aktif</li>
+            </ul>
+        </aside>
+
+        <!-- SLICE 3: CONTENT UTAMA -->
+        <main class="content">
+            <h1>Profil XI Rekayasa Perangkat Lunak</h1>
+            <h2>SMKN 1 Garut</h2>
+            <p>
+                <strong>Program Keahlian:</strong> Pengembangan Perangkat Lunak dan Gim (PPLG)
+            </p>
+            <p>
+                <strong>Deskripsi Kelas:</strong>XI RPL 1 adalah salah satu kelas dari jurusan PPLG (Pengembangan Perangkat Lunak dan Gim) di SMKN 1 Garut. Di kelas ini, kami belajar berbagai hal tentang dunia teknologi, mulai dari coding, pembuatan website dan aplikasi, database, hingga pengembangan project.
+
+Selain belajar, XI RPL 1 juga menjadi tempat untuk saling berbagi ilmu, bekerja sama, dan mengembangkan kreativitas. Walaupun kadang ada tugas dan coding yang bikin pusing, kami tetap berusaha untuk belajar dan berkembang bersama.
+
+XI RPL 1 — belajar, berkarya, dan berkembang bersama! 💻✨
+
+            <div class="card-box">
+                <h3>Visi Kelas</h3>
+                <p>
+                    Menjadi teknolog muda yang kompeten, kolaboratif, dan profesional dalam industri perangkat lunak.
+                </p>
+            </div>
+        </main>
+    </div>
+
+    <!-- SLICE 4: FOOTER -->
+    <footer>
+        <p>
+            &copy; 2026 Kelompok 2 - XI RPL SMKN 1 Garut. All Rights Reserved.
+        </p>
+    </footer>
+</body>
+</html>
