@@ -1,3 +1,10 @@
+Nama Anggota: Areqqah
+              Arief
+              Septi
+              Nessa
+
+
+
 Jawaban Pertanyaan Analisis & Konsep
 
 1. Challenge 2: Pertanyaan git status (Halaman 6)
