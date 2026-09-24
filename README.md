@@ -1,7 +1,7 @@
-Nama Anggota: Areqqah
-              Arief
-              Septi
-              Nessa
+Nama Anggota: Areeqah Az Zahra
+              Arief Dwi Rizki
+              Septi Shwaluni
+              Nessa Aura Putri
 
 
 
@@ -26,7 +26,7 @@ Jawaban Pertanyaan Analisis & Konsep
    Pertanyaan 3: Mengapa main harus dijaga agar tetap stabil? Jawaban: Karena branch main merupakan representasi dari produk akhir/versi produksi. Jika main rusak atau mengalami error, seluruh proyek dianggap bermasalah dan aplikasi tidak dapat digunakan atau dirilis.
 
 5. Challenge 12: Pertanyaan Conflict (Halaman 15-16)  
-   Pertanyaan 1: Mengapa conflict terjadi? Jawaban: Conflict terjadi ketika dua developer mengubah baris kode yang sama pada file yang sama secara berbeda, dan Git tidak dapat menentukan otomatis perubahan mana yang harus dipakai.
+   Pertanyaan 1: Mengapa conflict terjadi? Jawaban: Conflict terjadi disaat dua developer mengubah baris kode yang sama pada file yang sama secara berbeda, lalu Git tidak dapat menentukan otomatis perubahan mana yang harus dipakai.
    Pertanyaan 2: Apakah conflict berarti Git rusak? Jawaban: Tidak. Conflict adalah fitur pengaman dari Git untuk mencegah penimpaan kode secara tak sengaja tanpa persetujuan developer.Pertanyaan 3: Siapa yang harus menentukan versi kode yang benar? Jawaban: Developer yang mengalami conflict bersama dengan pemilik kode terkait (atau tim/Project Manager) melalui diskusi.
    Pertanyaan 4: Mengapa komunikasi antar programmer penting? Jawaban: Agar pembagian tugas jelas, mencegah pengubahan file/baris yang sama secara bersamaan, menyamakan persepsi fitur, serta mempermudah penyelesaian conflict dan code review.
 
