@@ -35,8 +35,8 @@ Perbedaan bekerja sendiri vs Git/GitHub: Bekerja sendiri membuat manajemen berka
 Manfaat branch: Mengisolasi fitur/eksperimen baru agar tidak merusak kode utama (main).
 Mengapa Pull Request diperlukan: Untuk memastikan kode yang dibuat ditinjau (review) terlebih dahulu sebelum digabungkan ke main.
 Manfaat Code Review: Menjaga kualitas kode, menemukan bug lebih awal, dan saling belajar standar penulisan kode di dalam tim.
-Error paling sulit: (Diisi sesuai pengalaman, misal: Git Push Rejected / Merge Conflict).
-Cara menemukan solusi: Membaca pesan error, diskusi tim, dan mencari solusinya di dokumentasi/AI.Kontribusi terbesar: (Diisi peran masing-masing, misal: Membuat halaman profil.html dan mereview Pull Request tim).
+Error paling sulit: Git Push Rejected, Merge Conflict.
+Cara menyelesaikan error: Membaca pesan error, diskusi tim, dan mencari solusinya di dokumentasi/AI.Kontribusi terbesar: (Diisi peran masing-masing, misal: Membuat halaman profil.html dan mereview Pull Request tim).
 Kebiasaan profesional yang dipertahankan: Membuat branch terpisah untuk fitur baru, menulis pesan commit yang informatif, dan melakukan code review.
 
 Refleksi Akhir (Halaman 21) Sebelum belajar GitHub, saya berpikir bahwa... membuat aplikasi dalam tim dilakukan dengan cara saling mengirimkan file proyek secara manual (misal lewat flashdisk atau chat).
